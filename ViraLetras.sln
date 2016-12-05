@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViraLetras", "ViraLetras\ViraLetras.csproj", "{BE07279D-8216-44C8-A342-261A82DF524C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaView", "CamadaView\CamadaView.csproj", "{77BEA96B-AABB-4BF1-8C89-12EDC1494D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaControl", "CamadaControl\CamadaControl.csproj", "{25B7D8DE-6FA4-43D9-BC9E-FCF5B0E9FD9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE07279D-8216-44C8-A342-261A82DF524C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE07279D-8216-44C8-A342-261A82DF524C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE07279D-8216-44C8-A342-261A82DF524C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE07279D-8216-44C8-A342-261A82DF524C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BEA96B-AABB-4BF1-8C89-12EDC1494D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BEA96B-AABB-4BF1-8C89-12EDC1494D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BEA96B-AABB-4BF1-8C89-12EDC1494D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BEA96B-AABB-4BF1-8C89-12EDC1494D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B7D8DE-6FA4-43D9-BC9E-FCF5B0E9FD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B7D8DE-6FA4-43D9-BC9E-FCF5B0E9FD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B7D8DE-6FA4-43D9-BC9E-FCF5B0E9FD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B7D8DE-6FA4-43D9-BC9E-FCF5B0E9FD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

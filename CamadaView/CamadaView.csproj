@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77BEA96B-AABB-4BF1-8C89-12EDC1494D18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CamadaView</RootNamespace>
+    <AssemblyName>CamadaView</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmJogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJogar.Designer.cs">
+      <DependentUpon>FrmJogar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CamadaControl\CamadaControl.csproj">
+      <Project>{25b7d8de-6fa4-43d9-bc9e-fcf5b0e9fd9d}</Project>
+      <Name>CamadaControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Figuras\A.png" />
+    <Content Include="Figuras\B.png" />
+    <Content Include="Figuras\C.png" />
+    <Content Include="Figuras\D.png" />
+    <Content Include="Figuras\Revelado.png" />
+    <Content Include="Figuras\E.png" />
+    <Content Include="Figuras\F.png" />
+    <Content Include="Figuras\G.png" />
+    <Content Include="Figuras\H.png" />
+    <Content Include="Figuras\I.png" />
+    <Content Include="Figuras\J.png" />
+    <Content Include="Figuras\L.png" />
+    <Content Include="Figuras\M.png" />
+    <Content Include="Figuras\N.png" />
+    <Content Include="Figuras\O.png" />
+    <Content Include="Figuras\P.png" />
+    <Content Include="Figuras\Q.png" />
+    <Content Include="Figuras\R.png" />
+    <Content Include="Figuras\S.png" />
+    <Content Include="Figuras\T.png" />
+    <Content Include="Figuras\U.png" />
+    <Content Include="Figuras\V.png" />
+    <Content Include="Figuras\Oculto.png" />
+    <Content Include="Figuras\ViraLetras.png" />
+    <Content Include="Figuras\X.png" />
+    <Content Include="Figuras\Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmJogar.resx">
+      <DependentUpon>FrmJogar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
